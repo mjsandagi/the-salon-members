@@ -1,6 +1,6 @@
 # The Salon Members
 
-A program that automatically does Memrise learning sessions for you. It will get you the target you need swiftly and efficiently.
+An in-development program that automatically does Memrise learning sessions for you. Once complete, it will get you the target you need swiftly and efficiently. 
 
 ---
 
@@ -8,7 +8,7 @@ A program that automatically does Memrise learning sessions for you. It will get
 
 ---
 
-## How to use
+## Usage
 
 1. Download the zip folder or clone via Git or GitHub CLI.
 
@@ -49,6 +49,21 @@ Enter your Memrise password:
 
 5. The program will then open up an instance of your browser, with a banner saying `<browser> is being controlled by automated testing software`.
    Sit back and relax. You can use your computer as normal, but don't close the browser window.
+
+## How it works (the "idea")
+
+1. **User Details**: The script prompts for your Memrise username and password, securely handling input with `getpass()`.
+
+2. **WebDriver**: It launches a Selenium WebDriver (`webdriver.Edge()`, modifiable for other browsers) to automate Memrise.
+
+3. **Login**: The bot fills in the login form and submits it using the provided credentials.
+
+4. **Lesson Selection**: It navigates to the lesson section, selecting a new lesson or learning activity.
+
+5. **Word Retrieval**: During the session, it extracts and stores word pairs (target and native language) in a dictionary.
+
+6. **Execution**: After login, the bot automates lesson interaction and exits once the session is complete.
+
 
 ## Furina's Salon Members
 
