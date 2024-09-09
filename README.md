@@ -2,6 +2,10 @@
 
 An in-development program that automatically does Memrise learning sessions for you. Once complete, it will get you the target you need swiftly and efficiently. 
 
+Memrise is a British language-learning platform that uses spaced repetition (a similar concept to flashcards) to increase the rate of learning, and is by far, in my opinion, one of the easiest ways to learn a new language. Give it a try!
+
+This program can be considered a tribute to my GCSE Spanish class from eons ago, and the Memrise 'lab' lessons that we all very much enjoyed.
+
 ---
 
 **Important message** - use this ethically. Memrise is there to teach you a new language - whether it be for a subject or a hobby, at the end of the day, the only person you're cheating is _yourself_.
